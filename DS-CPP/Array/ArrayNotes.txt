@@ -1,0 +1,15 @@
+Questions & tricks 
+
+To sort in desc any vector : sort(a.rbegin(),a.rend());
+OR
+//Custom 
+create a function and append to arguments sort(a.begin(),a.end(),sortdesc);
+function :   static bool sortdec(const pair<int,int> &a,const pai<int,int> &b); 
+
+i: 0 to N
+j: 0 to M
+Array[i][j] -> for every row
+Array[j][i] -> for every column
+
+
+

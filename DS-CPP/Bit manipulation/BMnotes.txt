@@ -1,0 +1,51 @@
+Bit Manipulation  
+
+Properties : 
+
+Q1 - Find the number which appears once. All others appear twice 
+xor all numbers 
+
+Q2 - Swap two numbers using bit 
+a=a^b
+b=b^a
+a=a^b
+
+Q3 - Find XOR 1 to N in O(1) 
+if(n%4==0) return n
+else if(n%4==1) return 1 
+else if(n%4==2) return n+1;
+else return 0;
+
+Q4 - Find XOR from L to R in O(1) 
+ x=xor(1 to R) and y=xor(1 to L) , ans = x^y;
+
+Q5 - check if n is odd or even
+if (n&1) odd else even
+
+Q6 - Check if ith bit is set
+if((1<<i)&n!=0) return set else return not-set
+
+Q7 - Make ith bit set(if not set)
+n=((1<<i)||n)
+
+Q8 - Make the bit unset 
+n=(~(1<<)&n)
+
+Q9 - remove the last set bit 
+n&(n-1)
+
+
+Q10 - check if n is power of 2
+n= 16 - 10000
+n-1 = 15 - 01111
+n&n-1 = 00000
+if(n&n-1==0) return true else return false
+
+Q11 - Count the number of set bits 
+int cnt = 0;
+while(n!=0)
+{
+    if(n&1!=0)
+        cnt++;
+    n=n>>1;
+}

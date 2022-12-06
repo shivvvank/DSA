@@ -1,0 +1,10 @@
+Stack Implementations : LL C++ STL Methods -> 
+emplace() - add
+push() - FI
+pop() - FO
+swap() - s1.swap(s2);
+empty() - returns bool 
+
+
+Infix to Postfix :
+- 

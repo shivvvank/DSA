@@ -1,0 +1,1 @@
+ans=ans+s.at(i);

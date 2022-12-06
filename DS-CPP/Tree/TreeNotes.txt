@@ -1,0 +1,44 @@
+Tree Series - Free ka Tree Striver 
+
+Topics :
+1. Types of Trees 
+2. How to represent Trees in C++
+3. Traversal of Tree 
+    DFS - Inorder, Preorder, Postorder
+    BFS - Level Order 
+4.
+5.
+
+
+Types Of Trees 
+1. Full binary tree (0 or 2 children)
+2. Complete binary tree (all level filled except last - left as possible)
+3. Perfect binary tree (all leaf at same level)
+4. Balanced binary tree (max height = log2N ,N=no of nodes)
+5. Degenerate binary tree (single child for every node except last)
+
+Representation in C++
+
+struct Node {
+    int val;
+    Node * left;
+    Node * right;
+    Node(int val)
+    {
+        this->val=val;
+    }
+    Node(int val , Node * left, Node * right)
+    {
+        this->val = val;
+        this->left = left;
+        this->right=right;
+    }
+}
+
+Tree Traversal 
+1. PreOrder : using recursion | using 1 stack (right then left push to stack) 
+2. InOrder : using recursion | using 1 stack & 1 node based upon if node!=nullptr go to left and push to stack
+2.                go to that node, if node is nullptr then save in vector or print and pop  
+3. PostOrder : using recursion | using 2 stacks Iterative | using 1 stack 
+
+

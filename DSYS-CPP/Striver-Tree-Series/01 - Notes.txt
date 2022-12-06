@@ -1,0 +1,27 @@
+Tree Types :
+//Full BT : every node 0 or 2 children
+//Complete BT : all level completely filled except last and left inclned
+//Perfect BT : leaf nodes at same level
+//Balanced BT : diff btw left height and right heght is less than 1 
+//Degenerate BT : like a list 
+
+Tree Traversal:
+Preorder
+Inorder
+Postorder
+
+Imp Questions : 
+1. Maximum Depth in a binary tree
+2. Check if balanced binary tree
+3. Diameter of a binary tree
+4. Maximum path sum 
+5. Check if two trees are identical 
+6. Zig-Zag or Spiral Traversal 
+7. Boundary Traversal 
+8. Vertical Traversal 
+9. Top/Bottom View
+10. Left/Right View 
+
+
+
+

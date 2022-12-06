@@ -1,0 +1,74 @@
+Is it DP?
+1. Choice (might be recursion) 
+2. Optimal Solution (DP)
+
+Top-down approach using table   X
+Write Recursive Solution(function) then use Memoization(or Top-Down)
+
+
+DP Parent Problems :
+1. 0-1 Knapsack (6)
+2. Unbouded Knapsack(5)
+3. Fibonacci(7)
+4. LCS(15)
+5. LIS(10)
+6. Kadane's Algorithm(6)
+7. MCM (7)
+8. DP on Trees(4)
+9. DP on Grid(14)
+   Others(5) 
+
+0-1 Knapsack Problem 
+1. Subset Sum
+2. Equal Sum Partition
+3. Count of subset Sum
+4. Minimum Subset Sum Difference
+5. Taregt Sum
+6. # of subset sum with given Difference
+
+What is Knapsack? 
+Knapsack is a bag which can contain things 
+types of knapsack - fractional knapsack ,0-1 knapsack, unbounded knapsack 
+weight[] - value[](price or cost) - capacity 
+
+
+Subset Sum - count&true/false based 
+Equal Sum partition - sum%2=0, subset sum = sum/2
+Count of Subset Sum - true/false -> || count-> +
+Minimum Subset sum difference - for last row i==n , find min(n-2*j,min)
+Count of minimum subset sum difference - count of subset sum = (total sum+diff)/2
+Target Sum   - same as above
+
+Unbounded Knapsack 
+1. Rod Cutting Problem
+2. Coin Change number of ways max
+3. Coin change min number of coins
+
+Longest common subsequence 
+1. Longest Common Substring
+2. Print LCS
+3. Shortest common Supersequence 
+4. Print SCS
+5. Min # of insertion and deletion a->b 
+6. Longest repeating subsequence
+7. Length of longest subsequence of A which is substring in b.
+8. Subsequence pattern matching
+9. count how many times a appears as subsequence in b.
+10. Longest Palindromic subsequence
+11. Largest palindromic substring
+12. Count of palindromic substring
+13. min # of deletion in a string to make it a palindrome
+14. min # of insertion in a string to make it a palindrome
+
+Matrix chain Multiplication 
+1. MCM
+2. Printing MCM
+3. Ealuate Exprr to true/boolean paranthesized
+4. Min/Max value of an Exprr
+5. Palindromic partitioning
+6. Scramble string
+7. egg droppling problem
+
+
+
+ 

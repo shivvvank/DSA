@@ -1,0 +1,6 @@
+Notes :
+
+process any nth from last : count-n+1 from beginning
+Edge cases : n==1(last element) , n==count(first element), count==1 (return nullptr result)
+
+nullptr == NULL 
