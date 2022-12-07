@@ -69,6 +69,13 @@
 insertion - O(logn) Deletion - O(logn)
 
 
-::MAP::
+
+Sort Vector of pair based on first value : sort(vect.begin(),vect.end())
+Sort Vector of pair based on second value : sort(vect.begin(),vect.end(),sortbysec)
+bool sortbysec(const pair<int,int> &a,const pair<int,int> &b)
+{
+    return (a.second<b.second);
+}
+
 
 
