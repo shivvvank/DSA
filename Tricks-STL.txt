@@ -78,4 +78,18 @@ bool sortbysec(const pair<int,int> &a,const pair<int,int> &b)
 }
 
 
+Can sort PQ using custom comparator like
+int someFunction()
+{
+    auto compare=[](string a,string b)
+    {
+        if(a.length()<b.length())
+            return true;//for maxheap
+        else if(a.length()>b.length())
+            return false;// for maxheap
+        else
+            return a<b;
+    }
+    priority_queue<string,vector<string>,decltype(compare)> pq(compare);
+}
 
