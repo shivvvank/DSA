@@ -1,0 +1,13 @@
+Binary Search Aditya Verma Notes 
+
+1. Binary Search 
+2. Order Agnostic Binary Search 
+3. Ist and Last occurrence of a number
+4. count of element in a sorted array
+5. # of times array is rotated
+6. Find an element in a sorted array
+7. Searching in a  nearly sorted array
+8. Floor ceil of an element
+9. Next alphabetical element
+10. Find position of an element in a sorted infinite array
+11. 
