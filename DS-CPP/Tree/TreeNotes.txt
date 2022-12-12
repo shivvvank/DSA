@@ -42,3 +42,12 @@ Tree Traversal
 3. PostOrder : using recursion | using 2 stacks Iterative | using 1 stack 
 
 
+Tree Balancing BST : DSW algorithm 
+Algorithm
+1. Convert the initial tree into a vine. By doing right rotations, we flatten a tree into a 'linked list', where the head is the former leftmost node, and tail - former rightmost node.
+2. As you convert the tree into a vine, count the total number of nodes in cnt.
+3. Calculate the height of the closest perfectly balanced tree: h = log2(cnt + 1).
+4. Calculate the number of nodes in the closest perfectly balanced tree: m = pow(2, h) - 1.
+5. Left-rotate cnt - m nodes to cover up the excess of nodes.
+
+

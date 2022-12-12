@@ -2,3 +2,4 @@ Linked List Notes Leetcode
 1. Convert binary to integer in c++ : pow(2,count-1);
 2. Convert integer to string ->>>> string s = to_string(val);
 3. create reference of available parameters to reduce time (no copy made)
+
