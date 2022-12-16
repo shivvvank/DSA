@@ -3,7 +3,6 @@ using namespace std;
 int numOfRotation(vector<int> arr)
 {
     int start = 0,end=arr.size()-1;
-    int ind=-1;
     int n = arr.size();
     while(start<=end)
     {
@@ -12,13 +11,16 @@ int numOfRotation(vector<int> arr)
         int next = (mid+1)%n;
         if(arr[mid]<arr[prev]&&arr[mid]<arr[next])
             return min(mid,abs(n-mid));
-        start=mid+1;
+        else if(arr[mid]<arr[start]&&arr[mid]<arr[end])
+            end = mid-1;
+        else
+            start=mid+1;
     }
     return 0;
 }
 int main()
 {
-    vector<int> arr={9,11,15,17,19,2,3};
+    vector<int> arr={9,10,2,3,4,5,6,7,8};
     cout<<numOfRotation(arr)<<endl;
     return 0;
 }
