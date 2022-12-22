@@ -23,11 +23,9 @@ int main()
     vector<vector<int>> ans = subsetSum2(nums);
     for(auto i:ans)
     {
-        cout<<"[";
-                cout<<j<<", ";
-        }
-        cout<<"]";
+        for(auto j:i)
+            cout<<j<<" ";
+        cout<<endl;
     }
-    cout<<endl;
     return 0;
 }
