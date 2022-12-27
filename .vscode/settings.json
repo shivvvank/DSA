@@ -23,7 +23,8 @@
         "unordered_set": "cpp",
         "valarray": "cpp",
         "__bit_reference": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "iosfwd": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
